@@ -1,4 +1,4 @@
- SELECT
+ SELECT top 25
 	db.name AS [db_name],
 	qsts.creation_time,
 	qsts.last_execution_time,
