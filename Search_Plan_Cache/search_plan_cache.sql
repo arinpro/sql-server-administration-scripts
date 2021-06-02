@@ -1,4 +1,5 @@
-SELECT db.name as [db_name],
+SELECT top 25
+       db.name as [db_name],
        qsts.creation_time,
        qsts.last_execution_time, 
        qsts.execution_count, 
